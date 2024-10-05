@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B52260002CB0D33500495F6E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5225FFF2CB0D32F00495F6E /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B580C1FA2CAF0B9500834704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5225FFF2CB0D32F00495F6E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		B580C1E92CAF0B9300834704 /* CamEra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamEra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B580C1F92CAF0B9500834704 /* CamEraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamEraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B580C2032CAF0B9500834704 /* CamEraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamEraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +97,7 @@
 				B580C1FC2CAF0B9500834704 /* CamEraTests */,
 				B580C2062CAF0B9500834704 /* CamEraUITests */,
 				B580C1EA2CAF0B9300834704 /* Products */,
+				B5225FFF2CB0D32F00495F6E /* WelcomeView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52260002CB0D33500495F6E /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
